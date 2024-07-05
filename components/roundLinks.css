@@ -1,0 +1,17 @@
+.round__links {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 100px 0px;
+}
+.round__links img {
+  width: 100px;
+  margin-bottom: 10px;
+}
+.round__links div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 30px;
+}

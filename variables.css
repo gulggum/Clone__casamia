@@ -1,0 +1,8 @@
+:root {
+  --logoFont: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  --logoColor: black;
+  --fontGrayColor: #9b9a9a;
+  --barGrayColor: #d1d1d1;
+  --sectionTitleFontSize: 30px;
+}

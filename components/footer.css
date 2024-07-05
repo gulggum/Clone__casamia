@@ -1,0 +1,122 @@
+footer {
+  padding: 50px 130px;
+  width: 100%;
+  box-sizing: border-box;
+  border-top: solid 1px var(--barGrayColor);
+}
+.bottom__container {
+  display: flex;
+  align-items: center;
+  padding: 10px 0px;
+  height: 100%;
+}
+
+/* footer-left */
+.footer__column:first-child {
+  width: 50%;
+}
+.bottom__logo {
+  font-family: var(--titleFont);
+
+  font-size: 25px;
+}
+.bottom__container {
+  display: flex;
+}
+footer ul {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: bold;
+}
+footer li {
+  padding: 20px 20px;
+}
+
+footer ul li:first-child {
+  margin-left: -20px;
+  color: red;
+}
+
+.footer__column:first-child {
+  margin-right: 200px;
+}
+
+.bottom__info {
+  line-height: 20px;
+  font-size: 13px;
+}
+
+.bottom__info span {
+  margin-right: 10px;
+  color: var(--fontGrayColor);
+}
+.bottom__info:last-child {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+.bottom__info:nth-child(2) > span:nth-child(7) {
+  font-weight: bold;
+}
+.bottom__info:last-child > img {
+  margin-right: 10px;
+}
+.copyright {
+  display: block;
+  margin-top: 30px;
+  font-size: 13px;
+  color: var(--fontGrayColor);
+  letter-spacing: 1px;
+}
+
+/* footer-right */
+.footer__column:last-child {
+  width: 50%;
+}
+.footer__column:last-child span {
+  display: block;
+  margin-bottom: 10px;
+}
+.callNumber {
+  display: flex;
+  font-size: 25px;
+}
+
+.callNumber span:first-child {
+  margin-right: 60px;
+}
+
+.info__btn {
+  display: flex;
+  align-items: center;
+}
+.info__btn span {
+  padding: 8px 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 14px;
+}
+.info__btn span:first-child {
+  margin-right: 10px;
+}
+.footer__column:last-child > span:first-child {
+  font-size: 14px;
+  text-decoration: underline;
+}
+.footer__column:last-child span:nth-last-child(3) {
+  display: block;
+  color: var(--fontGrayColor);
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.bottom__sns {
+  display: block;
+  display: flex;
+
+  margin-top: 20px;
+}
+.bottom__sns a {
+  margin-right: 20px;
+}

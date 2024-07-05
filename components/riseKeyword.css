@@ -1,0 +1,9 @@
+.riseKeyword {
+  display: flex;
+  flex-direction: column;
+}
+.riseKeyword__title {
+  text-align: center;
+  font-size: var(--sectionTitleFontSize);
+  margin-bottom: 50px;
+}
